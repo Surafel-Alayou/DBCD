@@ -1,0 +1,145 @@
+//slider style
+
+.slider-height-1 {
+	height: 750px;
+	@media #{$laptop-device} {
+		height: 650px;
+	}
+	@media #{$desktop-device} {
+		height: 550px;
+	}
+	@media #{$tablet-device} {
+		height: 420px;
+	}
+	@media #{$large-mobile} {
+		height: 360px;
+	}
+}
+.slider-content-1 {
+	& .title-disc {
+		width: 60%;
+		margin-bottom: 30px;
+		color: #fff;
+		@media #{$desktop-device} {
+			width: 80%;
+		}
+		@media #{$tablet-device} {
+			width: 90%;
+		}
+		@media #{$large-mobile} {
+			width: 100%;
+			font-size: 14px;
+		}
+	}
+	& .title {
+		text-transform: capitalize;
+		font-size: 60px;
+		margin-bottom: 20px;
+		color: #fff;
+		@media #{$desktop-device} {
+			font-size: 40px;
+		}
+		@media #{$tablet-device} {
+			font-size: 32px;
+		}
+		@media #{$large-mobile} {
+			font-size: 24px;
+		}
+	}
+}
+
+.overly {
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+	background-repeat: no-repeat;
+	background-color: #bebebe;
+	&.bg-color-none {
+		background-color: transparent;
+	}
+	&:after {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		content: "";
+		background: #000;
+		z-index: -1;
+		opacity: 0.4;
+	}
+}
+
+.slider-dots-style {
+	& .slick-dots {
+		position: absolute;
+		top: auto;
+		left: 50%;
+		margin-left: -36px;
+		bottom: 30px;
+		z-index: 1;
+		li {
+			font-size: 0;
+			width: 14px;
+			height: 14px;
+			background: #fff;
+			margin: 0 5px;
+			border-radius: 50%;
+			transition: all 0.3s ease-in-out;
+			cursor: pointer;
+			border: 2px solid transparent;
+			&.slick-active {
+				background: transparent;
+				border-color: $theme-color;
+			}
+			&:hover {
+				background: $theme-color;
+				border-color: $theme-color;
+			}
+		}
+	}
+	&:hover {
+		.slick-arrow {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}
+.slider-nav-style {
+	& .slick-arrow {
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		margin: -28px 0 0;
+		display: block;
+		position: absolute;
+		top: 50%;
+		cursor: pointer;
+		font-size: 24px;
+		z-index: 9;
+		background: rgba(255, 255, 255, 0.15);
+		border-radius: 100%;
+		text-align: center;
+		color: #fff;
+		opacity: 0;
+		visibility: hidden;
+		transition: $transition;
+		cursor: pointer;
+		&:hover {
+			background-color: $theme-color;
+		}
+		&.prev {
+			left: 20px;
+		}
+		&.next {
+			right: 20px;
+		}
+	}
+	&:hover {
+		.slick-arrow {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}

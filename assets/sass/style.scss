@@ -1,0 +1,65 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Chariv - Nonprofit Charity Bootstrap 5 Template
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    01. Template default CSS
+    02. Template Spacing CSS
+    03. Header CSS
+      3.1. Header Nav CSS
+      3.2. Header Menu CSS
+    04. Offcanvas CSS
+    05. Slider CSS
+      5.1. Slider CSS
+      5.2. Slider Nav CSS
+    6. Causes CSS
+      6.1. Causes Grid
+      6.2. Causes Single
+    7. Event CSS
+      7.1. Event Grid
+      7.2. Event Single
+    8. Breadcrumb CSS
+    9. About CSS
+    10. Pages CSS
+    	10.1. About CSS
+      10.2. Gellary CSS
+      10.3. Donate CSS
+      10.4. 404 CSS
+      10.5. Faq CSS
+    	10.6. Coming Soon CSS
+    11. Blog CSS
+    12. Footer CSS
+
+-----------------------------------------------------------------------------------*/
+
+@import "variabls";
+@import "mixin";
+@import "common";
+@import "header-nav";
+@import "header-menu";
+@import "slider";
+@import "slider-nav";
+@import "banner";
+@import "event";
+@import "brand-slider";
+@import "footer";
+@import "offcanvas";
+@import "responsive-class";
+@import "breadcrumb";
+@import "about";
+@import "blog";
+@import "contact";
+@import "testimonial";
+@import "faq";
+@import "coming-soon";
+@import "causes";
+@import "feature";
+@import "gallery";
+@import "volunteer";
+@import "404";
+@import "donate";

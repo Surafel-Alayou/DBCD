@@ -1,0 +1,49 @@
+// 404 page Style
+
+.height-section {
+	height: 650px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #F3F1F2;
+	@media #{$small-mobile} {
+		height: 500px;
+	}
+}
+.text-content {
+	& .title {
+		color: $heading-color;
+		font-size: 150px;
+		font-weight: bold;
+		line-height: 150px;
+		& span {
+			color: $theme-color;
+		}
+		@media #{$small-mobile} {
+			font-size: 120px;
+			line-height: 120px;
+		}
+	}
+	& .title-2 {
+		color: $heading-color;
+		font-size: 50px;
+		font-weight: bold;
+		& span {
+			font-size: 24px;
+			@media #{$small-mobile} {
+				font-size: 20px;
+			}
+		}
+		@media #{$small-mobile} {
+			font-size: 40px;
+		}
+	}
+	& p {
+		color: $heading-color;
+		font-weight: 400;
+		margin-bottom: 55px;
+		@media #{$small-mobile} {
+			font-size: 14px;
+		}
+	}
+}

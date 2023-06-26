@@ -1,0 +1,23 @@
+// Font Family
+$body-font: "Roboto", sans-serif;
+// Colors ---------------
+
+$white: #ffffff;
+$black: #1b1b1b;
+$transition: all 300ms linear;
+// Body Color
+$body-color: #454545;
+$theme-color: #cb2a27;
+
+// Heading Color
+$heading-color: #1b1b1b;
+
+// Responsive Variables
+$extraBig-device: "only screen and (min-width: 1500px)";
+$laptop-device: "only screen and (min-width: 1200px) and (max-width: 1499px)";
+$desktop-device: "only screen and (min-width: 992px) and (max-width: 1199px)";
+$tablet-device: "only screen and (min-width: 768px) and (max-width: 991px)";
+$large-mobile: "only screen and (max-width: 767px)";
+$small-mobile: "only screen and (max-width: 575px)";
+$extra-small-mobile: "only screen and (max-width: 479px)";
+$extra-mini-mobile: "only screen and (max-width: 360px)";

@@ -1,0 +1,101 @@
+.faq-area {
+	.inner-descripe {
+		& .title {
+			font-size: 24px;
+			margin: 0 0 15px;
+			@media #{$tablet-device} {
+				font-size: 20px;
+			}
+			@media #{$large-mobile} {
+				font-size: 20px;
+			}
+		}
+		p {
+			line-height: 28px;
+		}
+
+		margin-bottom: 30px;
+	}
+	.single-my-account {
+		h3 {
+			&.panel-title {
+				border-bottom: 0;
+				text-transform: capitalize;
+				a {
+					&:before {
+						font-family: FontAwesome;
+						content: "\f107";
+						display: inline-block;
+						position: absolute;
+						right: 20px;
+						top: 50%;
+						margin-top: -14px;
+					}
+					@media #{$large-mobile} {
+						padding: 12px 38px;
+					}
+					@media #{$small-mobile} {
+						font-size: 13px;
+					}
+
+					border-bottom: 0px solid #ebebeb;
+				}
+				span {
+					@media #{$large-mobile} {
+						top: 10px;
+					}
+				}
+				a[aria-expanded="true"] {
+					color: $theme-color;
+					border-bottom: 1px solid #ebebeb;
+				}
+			}
+		}
+		.panel-body {
+			padding: 20px;
+		}
+	}
+}
+
+// Account Page Style
+
+.single-my-account {
+	margin-bottom: 20px;
+	border: 1px solid #ebebeb;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	h3 {
+		&.panel-title {
+			background-color: #f9f9f9;
+			border-bottom: 1px solid #ebebeb;
+			font-size: 15px;
+			margin: 0;
+			position: relative;
+			text-transform: uppercase;
+			line-height: 2;
+			& span {
+				left: 20px;
+				position: absolute;
+				top: 16px;
+				@media #{$large-mobile} {
+					top: 10px;
+				}
+			}
+			a {
+				display: block;
+				padding: 16px 45px;
+				position: relative;
+				@media #{$large-mobile} {
+					padding: 12px 38px;
+				}
+				@media #{$small-mobile} {
+					font-size: 12px;
+				}
+				&:hover {
+					color: $theme-color;
+				}
+			}
+		}
+	}
+}

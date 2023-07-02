@@ -38,7 +38,7 @@ feature-icon@charset "UTF-8";
 
 -----------------------------------------------------------------------------------*/
 body {
-  font-family: 'Courgette', cursive;
+  font-family: 'Sriracha', 'Roboto';
   font-size: 15px;
   font-style: normal;
   position: relative;
@@ -50,8 +50,7 @@ body {
   width: 100%;
 }
 *{
-  font-family: 'Courgette', cursive;
-
+  font-family: 'Sriracha', 'Roboto';
 }
 
 h1,
@@ -60,7 +59,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Courgette', cursive;
+  font-family: 'Sriracha', 'Roboto';
   font-weight: 700;
   color: #1b1b1b;
 }
